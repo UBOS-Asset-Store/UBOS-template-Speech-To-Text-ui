@@ -1,0 +1,52 @@
+{
+    "_id": "6447af7e19e18934f982196d",
+    "name": "speech-to-text2",
+    "slug": "whisperui",
+    "organizationId": "Org",
+    "isPublic": true,
+    "isMenu": false,
+    "isShowPlatformTag": true,
+    "createdAt": "2023-04-25T10:46:22.664Z",
+    "updatedAt": "2024-02-01T12:58:40.473Z",
+    "deleted": false,
+    "pages": [
+        {
+            "_id": "Speech To Text",
+            "isDefault": true
+        }
+    ],
+    "policies": [
+        {
+            "permission": "makePublic:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "read:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "publish:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "manage:applications",
+            "groups": [],
+            "users": []
+        }
+    ],
+    "global_setting": {
+        "css": "${env.get(\"nodeURL\")}/style",
+        "title": "Speech To Text"
+    },
+    "gitApplicationMetadata": {
+        "browserSupportedRemoteUrl": "https://github.com/UBOS-Asset-Store/UBOS-template-Speech-To-Text-ui",
+        "defaultApplicationId": "whisperui",
+        "defaultBranchName": "main",
+        "isRepoPrivate": true,
+        "remoteUrl": "git@github.com:UBOS-Asset-Store/UBOS-template-Speech-To-Text-ui.git",
+        "repoName": "UBOS-template-Speech-To-Text-ui"
+    }
+}
